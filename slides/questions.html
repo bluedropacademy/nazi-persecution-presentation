@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>שאלות לחשיבה</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Assistant', sans-serif;
+            padding: 28px 45px;
+        }
+        
+        .page-title {
+            font-family: 'Alef', sans-serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: #2C3E50;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            font-size: 20px;
+            color: #7F8C8D;
+            text-align: center;
+            margin-bottom: 18px;
+        }
+        
+        .question-box {
+            border-right: 5px solid;
+            padding: 14px 18px;
+            margin-bottom: 12px;
+            background: #F8F9FA;
+        }
+        
+        .question-historical {
+            border-color: #3498DB;
+        }
+        
+        .question-resistance {
+            border-color: #E74C3C;
+        }
+        
+        .question-modern {
+            border-color: #16A085;
+        }
+        
+        .question-responsibility {
+            border-color: #F39C12;
+        }
+        
+        .question-icon {
+            font-size: 24px;
+            margin-bottom: 6px;
+        }
+        
+        .question-text {
+            font-family: 'Alef', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: #2C3E50;
+            line-height: 1.4;
+            margin-bottom: 6px;
+        }
+        
+        .question-hint {
+            font-size: 16px;
+            color: #7F8C8D;
+            font-style: italic;
+            line-height: 1.4;
+        }
+        
+        .category-label {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+        
+        .label-historical {
+            color: #3498DB;
+        }
+        
+        .label-resistance {
+            color: #E74C3C;
+        }
+        
+        .label-modern {
+            color: #16A085;
+        }
+        
+        .label-responsibility {
+            color: #F39C12;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html" class="back-button" style="position: fixed; top: 20px; left: 20px; background: #3498DB; color: white; padding: 12px 20px; text-decoration: none; font-family: 'Alef', sans-serif; font-size: 16px; font-weight: 700; z-index: 1000; border: none; box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: background 0.3s;">חזרה לתוכן עניינים</a>
+    <img src="../assets/bluedrop_logo_new.jpg" alt="BlueDrop Academy" style="position: fixed; top: 20px; right: 20px; height: 40px; z-index: 1000; opacity: 0.9;">
+    <div class="slide-container">
+        <!-- Title -->
+        <h1 class="page-title">שאלות לחשיבה - בואו נחשוב ביחד 🤔</h1>
+        <p class="subtitle">אין תשובות נכונות או לא נכונות - רק חשיבה עמוקה</p>
+        
+        <!-- Two Column Layout -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 12px;">
+            
+            <!-- Right Column -->
+            <div style="display: flex; flex-direction: column; justify-content: space-evenly;">
+                <!-- Question 1 -->
+                <div class="question-box question-historical">
+                    <p class="category-label label-historical">📚 שאלה היסטורית</p>
+                    <div class="question-icon" style="color: #3498DB;">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <p class="question-text">למה אנשים רגילים שיתפו פעולה?</p>
+                    <p class="question-hint">
+                        חשבו: האם זה היה פחד? שטיפת מוח? אדישות? אולי תמיכה אמיתית באידאולוגיה?
+                    </p>
+                </div>
+                
+                <!-- Question 2 -->
+                <div class="question-box question-resistance">
+                    <p class="category-label label-resistance">💪 שאלת התנגדות</p>
+                    <div class="question-icon" style="color: #E74C3C;">
+                        <i class="fas fa-fist-raised"></i>
+                    </div>
+                    <p class="question-text">מה היה קורה אם מישהו התנגד?</p>
+                    <p class="question-hint">
+                        חשבו: האם היו אנשים שהתנגדו? מה היה המחיר? האם זה היה שווה את הסיכון?
+                    </p>
+                </div>
+                
+                <!-- Question 3 -->
+                <div class="question-box question-modern">
+                    <p class="category-label label-modern">🌍 שאלה מודרנית</p>
+                    <div class="question-icon" style="color: #16A085;">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <p class="question-text">האם משהו כזה יכול לקרות היום?</p>
+                    <p class="question-hint">
+                        חשבו: האם אנחנו רואים סימני אזהרה דומים במקומות בעולם? מה שונה? מה דומה?
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Left Column -->
+            <div style="display: flex; flex-direction: column; justify-content: space-evenly;">
+                <!-- Question 4 -->
+                <div class="question-box question-responsibility">
+                    <p class="category-label label-responsibility">⚖️ שאלת אחריות</p>
+                    <div class="question-icon" style="color: #F39C12;">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <p class="question-text">מי אחראי - רק הנאצים או גם אחרים?</p>
+                    <p class="question-hint">
+                        חשבו: האם גם אזרחים רגילים שלא עשו כלום אחראים? מה עם מדינות שלא קיבלו פליטים?
+                    </p>
+                </div>
+                
+                <!-- Question 5 -->
+                <div class="question-box question-historical">
+                    <p class="category-label label-historical">🔍 שאלת זיהוי</p>
+                    <div class="question-icon" style="color: #3498DB;">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <p class="question-text">באיזה שלב זה עבר את הקו?</p>
+                    <p class="question-hint">
+                        חשבו: האם זה היה ליל הבדולח? חוקי נירנברג? או אולי כבר החרם הראשון?
+                    </p>
+                </div>
+                
+                <!-- Question 6 -->
+                <div class="question-box question-modern">
+                    <p class="category-label label-modern">💡 שאלת לקח</p>
+                    <div class="question-icon" style="color: #16A085;">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <p class="question-text">מה אנחנו יכולים ללמוד מזה להיום?</p>
+                    <p class="question-hint">
+                        חשבו: איך אנחנו יכולים לזהות סימני אזהרה? מה האחריות שלנו כאזרחים?
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bottom Note -->
+        <div style="background: #E8F8F5; border: 3px solid #16A085; padding: 12px 20px; margin-top: 12px; text-align: center;">
+            <p style="font-family: 'Alef', sans-serif; font-size: 20px; font-weight: 700; color: #16A085; margin: 0;">
+                💭 דברו על זה עם חברים, משפחה, מורים - השיחה היא חלק מהלמידה
+            </p>
+        </div>
+    </div>
+    <div style="position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); display: flex; gap: 20px; z-index: 1000;"><a href="summary.html" style="background: #7F8C8D; color: white; padding: 12px 24px; text-decoration: none; font-family: 'Alef', sans-serif; font-size: 16px; font-weight: 700; border-radius: 5px; display: flex; align-items: center; gap: 8px;"><i class="fas fa-chevron-right"></i> פרק קודם</a><a href="study_tips.html" style="background: #3498DB; color: white; padding: 12px 24px; text-decoration: none; font-family: 'Alef', sans-serif; font-size: 16px; font-weight: 700; border-radius: 5px; display: flex; align-items: center; gap: 8px;">פרק הבא <i class="fas fa-chevron-left"></i></a></div>
+</body>
+</html>
